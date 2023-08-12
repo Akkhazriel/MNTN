@@ -1,0 +1,38 @@
+:root {
+    
+}
+
+// Темная тема сайта
+.dark {
+    
+}
+
+@font-face {
+    font-family: Gilroy_m;
+    src: url('./../fonts/Gilroy-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Gilroy_b;
+    src: url('./../fonts/Gilroy-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Gilroy_eb;
+    src: url('./../fonts/Gilroy-ExtraBold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Chronicle_sb;
+    src: url('./../fonts/Chronicle\ Display\ Semibold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Chronicle_black;
+    src: url('./../../fonts/Chronicle\ Display\ Black.otf');
+    font-weight: 900;
+}

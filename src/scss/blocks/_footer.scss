@@ -1,0 +1,138 @@
+.footer {
+    padding-bottom: 120px;
+    // .footer__container
+    @media (max-width: 1200px) {
+        padding: 0 40px 120px 40px;
+    }
+
+    &__container {
+    }
+
+    // .footer__row
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .footer__text
+
+    &__text {
+        margin-bottom: 122px;
+
+        color: #FFF;
+        font-family: Gilroy_b, sans-serif;
+        font-size: 18px;
+        line-height: 1.77; /* 177.778% */
+    }
+
+    // .footer__copyright
+
+    &__copyright {
+        font-family: Gilroy_m, sans-serif;
+        line-height: 1.77; /* 177.778% */
+        opacity: .5;
+    }
+}
+.footer-row {
+
+
+    // .footer-row__copyright
+
+    &__copyright {
+        max-width: 400px;
+        color: #FFF;
+        display: flex;
+        flex-direction: column;
+
+        margin-right: 50px;
+
+        @media (max-width: 880px) {
+            max-width: 100%;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+    }
+
+    // .footer-row__links
+
+    &__links {
+        display: flex;
+        column-gap: 212px;
+
+        @media (max-width: 1000px) {
+            column-gap: 100px;
+        }
+
+        @media (max-width: 880px) {
+            display: none;
+        }
+    }
+
+    // .footer-row__nav
+
+    &__nav {
+    }
+}
+.logo {
+    margin-bottom: 24px;
+}
+.footer-nav {
+
+    // .footer-nav__list
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .footer-nav__item
+
+    &__item {
+        &:first-of-type {
+            margin-bottom: 24px;
+        }
+
+        margin-bottom: 16px;
+    }
+
+    // .footer-nav__links
+
+    &__links {
+        color: #FFF;
+        font-family: Gilroy_m, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 177.778% */
+        transition: all 0.2s ease-in;
+
+        &:hover {
+            color: #FBD784;
+        }
+
+        @media (max-width: 1200px) {
+            font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+        }
+
+
+    }
+}
+.nav {
+
+    // .nav__link-title
+
+    &__link-title {
+        color: #FBD784;
+        font-family: Gilroy_b, sans-serif;
+        font-size: 24px;
+        line-height: 1.33; /* 133.333% */
+
+        @media (max-width: 1200px) {
+            font-size: clamp(0.875rem, 0.739rem + 0.68vw, 1.25rem);
+        }
+    }
+}
