@@ -82,17 +82,17 @@ legend {
 
 @font-face {
   font-family: Gilroy_m;
-  src: url("./../fonts/Gilroy-Medium.ttf");
+  src: url("./fonts/Gilroy-Medium.ttf");
   font-weight: 500;
 }
 @font-face {
   font-family: Gilroy_b;
-  src: url("./../fonts/Gilroy-Bold.ttf");
+  src: url("./fonts/Gilroy-Bold.ttf");
   font-weight: 700;
 }
 @font-face {
   font-family: Gilroy_eb;
-  src: url("./../fonts/Gilroy-ExtraBold.ttf");
+  src: url("./fonts/Gilroy-ExtraBold.ttf");
   font-weight: 800;
 }
 @font-face {
@@ -102,7 +102,7 @@ legend {
 }
 @font-face {
   font-family: Chronicle_black;
-  src: url("./../../fonts/Chronicle Display Black.otf");
+  src: url("./fonts/Chronicle Display Black.otf");
   font-weight: 900;
 }
 html {
@@ -113,7 +113,7 @@ body {
   margin: 0;
   font-family: "Gilroy_m", sans-serif;
   background-color: #0B1D26;
-  background-image: url("./../img/BG.jpg");
+  background-image: url("./img/BG.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -308,7 +308,7 @@ body {
 }
 .content-text__link::after {
   content: "";
-  background-image: url("./../../img/arrow.svg");
+  background-image: url("./img/arrow.svg");
   background-repeat: no-repeat;
   display: block;
   position: absolute;
@@ -565,12 +565,12 @@ body {
   color: #FBD784;
 }
 .login.login:hover.login:hover::before {
-  background: url("./../img/cart-active.svg");
+  background: url("./img/cart-active.svg");
 }
 .login.login::before {
   content: "";
   position: absolute;
-  background: url("./../img/cart.svg");
+  background: url("./img/cart.svg");
   bottom: 0;
   top: auto;
   left: -18px;
@@ -585,7 +585,7 @@ body {
 .login.login--scrolling::before {
   content: "";
   position: absolute;
-  background: url("./../img/cart.svg");
+  background: url("./img/cart.svg");
   bottom: 0;
   top: auto;
   left: -18px;
@@ -678,7 +678,7 @@ body {
 }
 .hero-title__cta::after {
   content: "";
-  background-image: url("./../img/arrow-down.svg");
+  background-image: url("./img/arrow-down.svg");
   display: block;
   position: absolute;
   right: 0;
